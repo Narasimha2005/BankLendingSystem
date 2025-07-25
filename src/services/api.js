@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3000/api/v1';
+const API_BASE_URL = 'https://bank-lending-system-server.vercel.app/api/v1';
 
 const handleResponse = async (response) => {
   if (!response.ok) {
